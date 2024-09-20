@@ -34,14 +34,14 @@ After creating the circle, I explored how to preview and edit SVGs in real-time.
    - Any changes saved in the editor are instantly reflected in the browser, enabling a professional editing workflow that feels almost seamless.
 
 <div align="center">
-    <img class="logo" src="../media/inkscape/live-circle.gif" alt="image" width="30%">
+    <img class="logo" src="../media/inkscape/live-circle.gif" alt="image" width="60%">
 </div>
 
 ### Error Debugging Feature 🚨
 One unexpected benefit of this method is real-time syntax error detection. For example, if there is a typo in the SVG syntax, the browser immediately highlights the issue and even pinpoints its location. This can be a lifesaver during complex designs, as it eliminates the need for repetitive trial-and-error debugging. Here's an example of the error screen:
 
 <div align="center">
-    <img class="logo" src="../media/inkscape/error.png" alt="image" width="30%">
+    <img class="logo" src="../media/inkscape/error.png" alt="image" width="60%">
 </div>
 
 Another advantage is that this method encourages experimentation. I found myself making small adjustments to attributes like `cx`, `cy`, or colors and seeing the results instantly, which enhanced my understanding of how different parameters interact.
@@ -65,7 +65,7 @@ Building upon the initial example, I experimented with creating various shapes u
 To consolidate these skills, I designed a composite SVG combining all these elements into a cohesive design. This exercise was a significant milestone as it allowed me to apply everything I learned in a single project:
 
 <div align="center">
-    <img class="logo" src="../lab/inkscape/figures.svg" alt="image" width="30%">
+    <img class="logo" src="../lab/inkscape/figures.svg" alt="image" width="60%">
 </div>
 
 ### Reflection
