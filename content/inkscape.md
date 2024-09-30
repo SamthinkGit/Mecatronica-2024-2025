@@ -180,3 +180,137 @@ To summarize the tools and their applications:
 | Stroke and Blur       | Add polish and soft transitions      | Shadows and eye flares   |
 
 ---
+# Pac-Man Design in Inkscape 🎨
+
+## Initial Setup ⚙️
+For practicing the tools learnt in the following seciont we will try to draw a beauty Pacman. Before starting the Pac-Man design, it's important to prepare the workspace for precise and efficient editing:
+
+1. **Canvas Size:** Adjust the document properties to a square size like 500x500 pixels, suitable for game-like designs.
+2. **Background Color:** Set the background to black, matching the classic Pac-Man aesthetic.
+
+### Tools Used:
+- **Ellipse Tool:** For Pac-Man and the dots.
+- **Arc Tool (Ellipse Modifier):** To create the "mouth" of Pac-Man.
+- **Rectangle Tool:** For the blue bars.
+- **Fill and Stroke:** To apply colors and adjust thickness.
+- **Duplicate Tool:** To quickly copy repetitive elements.
+
+
+## Step 1: Creating Pac-Man 🟡
+Pac-Man is the centerpiece of the design, created using the Ellipse Tool with the Arc modification feature.
+
+1. **Draw a Circle:**
+   - Select the **Ellipse Tool** (`F5` shortcut).
+   - Hold `Ctrl` while dragging to create a perfect circle.
+   - Set the fill color to yellow.
+2. **Create the Mouth:**
+   - With the circle selected, use the **Arc Tool** feature available in the top toolbar.
+   - Adjust the start and end angles to "cut" a triangular slice from the circle, forming the mouth.
+3. **Add the Eye:**
+   - Draw a small black circle using the **Ellipse Tool** and position it near the top of Pac-Man's head.
+
+
+## Step 2: Adding the Dots ⚪
+The dots represent the food path for Pac-Man.
+
+1. **Create a Single Dot:**
+   - Draw a small circle using the **Ellipse Tool**.
+   - Set the fill color to yellow.
+2. **Duplicate the Dot:**
+   - Use `Ctrl+D` to duplicate the dot multiple times.
+   - Use the **Align and Distribute** tool to space them evenly in a horizontal line.
+
+### Tools Used:
+- **Duplicate Tool:** For quick replication of elements.
+- **Align and Distribute:** Ensures consistent spacing and alignment.
+
+
+## Step 3: Drawing the Blue Bars 🔵
+The horizontal blue bars provide structure to the scene and frame the Pac-Man design.
+
+1. **Draw a Rectangle:**
+   - Use the **Rectangle Tool** to create a horizontal bar.
+   - Adjust the dimensions to match the width of the canvas while keeping a narrow height.
+   - Set the fill color to blue and increase the stroke thickness for a bold appearance.
+2. **Duplicate and Position:**
+   - Duplicate the rectangle and place it symmetrically above and below the Pac-Man and dots.
+
+### Final Result:
+The design effectively captures the essence of the retro Pac-Man game, utilizing simple shapes and precise alignment to create a vibrant scene :D.
+
+
+<div align="center">
+    <img class="logo" src="../media/inkscape/ink-pacman.gif" alt="image" width="60%">
+</div>
+
+# Sinusoidal Function Representation with Bezier Curves
+
+In this section, we will try to replicacte the sinusoidal function `f(x, y) = sin(x)` using only the following tools and techniques:
+
+- **Bezier Curves** for the sinusoidal waves.
+- **Transparency** to simulate overlapping waves.
+- **Text Tool** for labels and function description.
+- **Rectangle Tool** for the axes.
+
+---
+
+## Step 1: Setting Up the Axes 📐
+The axes serve as the foundation for the illustration:
+
+1. **Draw the X-Axis:**
+   - Use the **Rectangle Tool** to create a long, thin rectangle for the x-axis.
+   - Adjust its stroke and fill to solid black.
+   - Position it horizontally at the bottom of the canvas.
+   - Add a label using the **Text Tool**, writing "x-Axis" and positioning it near the end of the axis.
+
+2. **Draw the Y-Axis:**
+   - Similarly, use the **Rectangle Tool** to create a vertical rectangle for the y-axis.
+   - Position it at the left edge of the canvas.
+   - Label it "Y-Axis" using the **Text Tool**.
+
+---
+
+## Step 2: Drawing the Sinusoidal Waves 🌊
+Each wave represents a slice of the sinusoidal function, drawn using **Bezier Curves**:
+
+1. **Create the First Wave:**
+   - Select the **Bezier Curve Tool**.
+   - Draw a sinusoidal path by clicking to define anchor points along the curve.
+   - Adjust the curve handles to create smooth, flowing sine waves.
+
+2. **Duplicate and Offset Waves:**
+   - Duplicate the first curve using `Ctrl+D`.
+   - Offset the duplicate vertically to create the illusion of multiple layers.
+   - Repeat this step multiple times, ensuring the waves maintain consistent spacing.
+
+3. **Add Transparency:**
+   - Select each wave and adjust its transparency in the **Fill and Stroke** panel.
+   - Assign a gradient fill to simulate depth and light interaction, fading from yellow to transparent.
+
+---
+
+## Step 3: Adding Shadows and Depth ✨
+1. **Apply Drop Shadows:**
+   - Select each wave and apply a drop shadow effect via the **Filters > Shadows and Glows > Drop Shadow** option.
+   - Adjust the opacity, blur radius, and offset to create a subtle shadow effect.
+   - This enhances the perception of overlapping waves.
+
+2. **Refine the Shadowing:**
+   - Ensure that shadows are consistent across all waves.
+   - Adjust the transparency of shadows to prevent them from overwhelming the design.
+
+---
+
+## Step 4: Labeling the Function ✍️
+**Write the Function Equation:**
+   - Use the **Text Tool** to type the equation `f(x, y) = sin(x)`.
+   - Position it centrally beneath the waves.
+
+---
+
+The final result is a visually appealing representation of the sinusoidal function, combining simplicity with professional design elements.
+
+
+<div align="center">
+    <img class="logo" src="../media/inkscape/ink-sin.gif" alt="image" width="60%">
+</div>
