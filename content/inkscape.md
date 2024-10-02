@@ -180,6 +180,7 @@ To summarize the tools and their applications:
 | Stroke and Blur       | Add polish and soft transitions      | Shadows and eye flares   |
 
 ---
+
 # Pac-Man Design in Inkscape 🎨
 
 ## Initial Setup ⚙️
@@ -242,6 +243,8 @@ The design effectively captures the essence of the retro Pac-Man game, utilizing
 <div align="center">
     <img class="logo" src="../media/inkscape/ink-pacman.gif" alt="image" width="60%">
 </div>
+
+---
 
 # Sinusoidal Function Representation with Bezier Curves
 
@@ -313,4 +316,152 @@ The final result is a visually appealing representation of the sinusoidal functi
 
 <div align="center">
     <img class="logo" src="../media/inkscape/ink-sin.gif" alt="image" width="60%">
+</div>
+
+---
+
+# Simulating a Catan Board in Inkscape 🎲
+
+## Overview
+This simulation of a Catan board was created entirely in 2D using **basic geometric shapes** such as hexagons, rectangles, and circles. After assembling the elements, the design was transformed to appear three-dimensional using the Deform Tool. This approach creates a realistic perspective effect, giving the flat 2D board a dynamic and engaging appearance.
+
+---
+
+## Step 1: Designing the Hexagonal Tiles 🛠️
+The hexagonal tiles form the core of the Catan board. Each hexagon represents a resource type (e.g., wood, brick, wheat).
+
+1. **Creating a Hexagon:**
+   - Use the **Polygon Tool** and set the sides to six to draw a perfect hexagon.
+   - Hold `Ctrl` while dragging to ensure alignment and symmetry.
+   - Resize the hexagon to the desired tile size.
+2. **Assigning Colors:**
+   - Fill each hexagon with a different color to represent resources (e.g., green for wood, red for brick).
+   - Use the **Fill and Stroke** panel to adjust the colors and remove any unnecessary strokes.
+3. **Arranging the Tiles:**
+   - Duplicate the hexagon using `Ctrl+D`.
+   - Align the hexagons in a honeycomb pattern using the **Align and Distribute** tool to ensure consistent spacing.
+
+---
+
+## Step 2: Adding Other Board Elements 🧩
+Additional components, such as the score trackers, player areas, and resource cards, were created using rectangles and circles.
+
+1. **Score Trackers:**
+   - Use the **Rectangle Tool** to create elongated rectangles representing score trackers.
+   - Duplicate and align these trackers on one side of the board.
+2. **Player Areas:**
+   - Draw rectangles for the player areas and assign distinct colors to differentiate them.
+3. **Resource Cards:**
+   - Use small rectangles to represent the resource cards and arrange them near the board's edges for easy access.
+4. **Dice and Number Tokens:**
+   - Use the **Ellipse Tool** to create circles for the number tokens (placed on hex tiles).
+   - Label the tokens with numbers using the **Text Tool**.
+
+---
+
+## Step 3: Applying 3D Perspective 🌟
+To give the 2D board a realistic 3D appearance:
+
+1. **Select the Entire Design:**
+   - Group all elements of the board (hexagons, trackers, and tokens) using `Ctrl+G`.
+2. **Deform Tool:**
+   - Navigate to **Path > Object to Path** to convert the grouped elements into a path.
+   - Use the **Deform Tool** (or Perspective Tool) to skew the grouped design.
+   - Adjust the handles to simulate a tilted perspective, making the board look like it’s lying on a table.
+
+---
+
+## Result ✨
+
+The result is a 2D Catan board transformed into a dynamic 3D simulation, demonstrating the versatility of basic tools combined with perspective adjustments.
+
+<div align="center">
+    <img class="logo" src="../media/inkscape/ink-catan.gif" alt="image" width="60%">
+</div>
+
+---
+
+# Creating a Neon Sign Effect in Inkscape ✨
+In this section, we will try to create a neon sign effect designed to simulate a glowing text overlay on a brick wall. The following tools and techniques were used:
+
+- **Text Tool** for creating the main text.
+- **Blur and Glow Effects** for the neon glow.
+- **Star Shape** to add colorful "light splashes."
+- **Burned Effect** to simulate color bleeding on the wall.
+
+---
+
+## Step 1: Creating the Text ✍️
+The text "Sam" serves as the focal point of the design.
+
+1. **Add the Text:**
+   - Use the **Text Tool** (`T` shortcut) to type "Sam."
+   - Choose a bold, sans-serif font for a modern neon look.
+   - Set the initial fill color to yellow for a bright, glowing effect.
+2. **Apply Stroke:**
+   - Add an outline using the **Fill and Stroke** panel.
+   - Use a slightly darker yellow for the stroke to create depth.
+
+---
+
+## Step 2: Adding the Glow ✨
+To simulate the neon glow, blurring techniques were applied to the text.
+
+1. **Duplicate the Text:**
+   - Create a duplicate of the original text (`Ctrl+D`).
+   - Place the duplicate behind the original text.
+2. **Apply Blur:**
+   - Open the **Fill and Stroke** panel and increase the blur to create a glowing halo effect.
+   - Adjust the opacity to make the glow softer and more natural.
+3. **Add Gradient Glow:**
+   - Use a radial gradient fill on the blurred text.
+   - Transition from a bright yellow center to a transparent edge for a realistic glow.
+
+---
+
+## Step 3: Designing the Background 🧱
+The brick wall provides a realistic backdrop for the neon sign.
+
+1. **Create the Wall:**
+   - Use the **Rectangle Tool** to draw a black rectangle as the base.
+   - Add a **brick pattern** using the **Extensions > Render > Pattern > Bricks** feature.
+   - Set the brick color to a dark gray for subtle texture.
+2. **Color the Wall:**
+   - Use the **Gradient Tool** to add subtle blue and purple lighting effects on the wall.
+   - Blend the gradient with the brick texture for a cohesive look.
+
+---
+
+## Step 4: Adding Light Splashes 🌟
+Light splashes enhance the ambiance by simulating reflected light on the wall.
+
+1. **Create a Star Shape:**
+   - Use the **Star Tool** to draw a simple star.
+   - Adjust the corners to make it more symmetrical.
+2. **Blur the Star:**
+   - Apply a high blur value to the star using the **Fill and Stroke** panel.
+   - This creates a soft, glowing splash of light.
+3. **Add Colors:**
+   - Use the **Color Picker Tool** to select vibrant colors (blue, purple, yellow).
+   - Apply a radial gradient to each star to blend it naturally with the wall.
+4. **Burn the Colors:**
+   - Use the **Burn Tool** to smear the colors lightly onto the wall texture, simulating light bleeding.
+
+---
+
+## Final Touches ✨
+1. **Frame the Design:**
+   - Add a rounded rectangle around the text to give it a "signboard" look.
+   - Apply a subtle white glow to the frame for emphasis.
+2. **Layer Management:**
+   - Separate elements into layers (text, glow, wall, light splashes) for easier adjustments.
+3. **Polish the Effects:**
+   - Adjust the transparency and blur of each element to ensure a balanced, cohesive look.
+
+
+## Results
+The final result combines vibrant colors, glowing effects, and a realistic textured background to create an immersive neon sign design.
+
+<div align="center">
+    <img class="logo" src="../media/inkscape/ink-leds.gif" alt="image" width="60%">
 </div>
