@@ -465,3 +465,70 @@ The final result combines vibrant colors, glowing effects, and a realistic textu
 <div align="center">
     <img class="logo" src="../media/inkscape/ink-leds.gif" alt="image" width="60%">
 </div>
+
+---
+
+# Creating a "Mario Royale" Scene Using Constructive Geometry 🎮
+
+## Overview
+This image replicates a classic "Mario Royale" scene using constructive geometry techniques. All elements were constructed with basic shapes (rectangles, circles, and polygons) combined and modified to create the iconic features of a Mario-style level. This method ensures precision and simplicity while maintaining a retro pixel-art aesthetic.
+
+
+## Step 1: Setting Up the Background 🌌
+1. **Sky:**
+   - Use the **Rectangle Tool** to draw a large rectangle covering the entire canvas.
+   - Fill it with a solid light blue color to represent the sky.
+
+2. **Ground:**
+   - Draw another rectangle at the bottom of the canvas for the ground.
+   - Fill it with an orange color.
+   - Add a tiled effect by drawing smaller orange rectangles within the ground area to simulate bricks.
+
+
+## Step 2: Creating the Question Blocks ❓
+1. **Main Block Shape:**
+   - Draw a square using the **Rectangle Tool** and fill it with a light orange color.
+   - Add a thin, darker orange stroke for definition.
+2. **Adding the Question Mark:**
+   - Use the **Text Tool** to type "?" and position it in the center of the square.
+   - Adjust the font size and color to match the block's design.
+3. **Duplicate and Arrange:**
+   - Create multiple copies of the block and place them strategically above the ground or on top of brick platforms.
+
+
+## Step 3: Constructing the Brick Platform 🧱
+1. **Draw the Bricks:**
+   - Use the **Rectangle Tool** to create small rectangles.
+   - Arrange them side by side in a horizontal line to form a platform.
+   - Fill them with a brown color and add a black stroke for definition.
+2. **Duplicate the Platform:**
+   - Duplicate the entire platform as needed and align it above the ground.
+
+
+## Step 4: Adding Pipes and Hills 🌳
+1. **Pipe:**
+   - Draw a rectangle for the main body of the pipe and a smaller rectangle for the pipe's top rim.
+   - Fill both shapes with green and adjust the stroke width to create depth.
+2. **Hills:**
+   - Use the **Ellipse Tool** to draw semi-circles for the hills.
+   - Add a green fill and a darker green stroke.
+   - Position them partially behind the ground rectangle to simulate depth.
+
+
+
+## Final Touches ✨
+1. **Layer Management:**
+   - Organize all elements into layers (e.g., background, blocks, pipes, text) for easy adjustments.
+2. **Color Adjustments:**
+   - Ensure all colors are vibrant and consistent with the retro Mario aesthetic.
+3. **Alignment:**
+   - Use the **Align and Distribute** tool to ensure all elements are properly spaced and aligned.
+
+
+The final result is a vibrant and nostalgic Mario Royale scene, showcasing the power of constructive geometry in recreating classic pixel-art styles.
+
+<div align="center">
+    <img class="logo" src="../media/inkscape/ink-mario.gif" alt="image" width="60%">
+</div>
+
+---
