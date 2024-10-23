@@ -84,3 +84,84 @@ The final model successfully replicates the "Gatortitas" plushie, showcasing the
 
 ---
 
+
+# Designing a "Gladiator"-Inspired Mural in FreeCAD 🛡️
+
+This project recreates the intricate figures from the movie *Gladiator*'s iconic armor, transformed into a mural for 3D printing. The design combines a custom-made wall created in Inkscape, STL models representing the armor figures, and FreeCAD for assembly. Finally, the mural was prepared for printing using CuraMaker.
+
+<div align="center">
+    <img class="logo" src="../media/freecad/gladiator.png" alt="image" width="30%">
+</div>
+
+
+## Step 1: Designing the Wall in Inkscape 🧱
+1. **Create the Wall Base:**
+   - Open Inkscape and draw a large rectangle to represent the wall’s dimensions.
+   - Divide the rectangle into irregular sections to simulate stone patterns using the **Bezier Tool**.
+   - Use **Path > Combine** to merge the sections into a single wall structure.
+   - Fill the wall pattern with a dark gray color to resemble stone.
+
+2. **Export as SVG:**
+   - Save the completed wall design as an SVG file for later use in FreeCAD.
+
+## Step 2: Importing Figures and Aligning Them in FreeCAD 🏇
+### Importing the Wall:
+1. **Load the SVG File:**
+   - Open FreeCAD and use the **Draft Workbench** to import the SVG of the wall.
+   - Extrude the SVG into a 3D object using the **Part Workbench**'s **Extrude Tool**, giving it a slight thickness.
+
+### Importing Figures:
+1. **Find STL Models:**
+   - Download STL files of relevant figures (e.g., horses, the tree, the angel, and the woman and child) from free 3D model repositories.
+2. **Import into FreeCAD:**
+   - Use the **File > Import** option to bring each STL model into the FreeCAD workspace.
+3. **Scale and Position Models:**
+   - Adjust the size of each model using the **Transform Tool** to ensure they fit proportionally on the wall.
+   - Place the models on top of the extruded wall, aligning them carefully to create a cohesive design.
+
+<div align="center">
+    <img class="logo" src="../media/freecad/gladiator-c1.png" alt="image" width="30%">
+</div>
+
+## Step 3: Preparing the Mural for Printing 🖨️
+### Merging Elements:
+1. **Combine Figures and Wall:**
+   - Use the **Boolean Union Tool** in the **Part Workbench** to merge the wall and the STL figures into a single printable object.
+
+### Exporting for CuraMaker:
+1. **Export the Final Model:**
+   - Save the combined 3D model as an STL file for slicing.
+2. **Load into CuraMaker:**
+   - Open the STL in CuraMaker and position it on the virtual build plate.
+   - Adjust print settings such as:
+     - **Layer Height:** 0.2 mm for detailed printing.
+     - **Infill Density:** 20-30% for structural stability.
+     - **Support Structures:** Enable support for overhanging parts of the figures.
+
+## Step 4: Printing the Mural ✨
+1. **Start the Print:**
+   - Send the prepared file to the 3D printer and monitor the printing process.
+2. **Post-Processing:**
+   - Remove any support structures and sand rough edges to ensure a smooth finish.
+   - Optionally, paint the mural for added visual effect.
+
+<div align="center">
+    <img class="logo" src="../media/freecad/cura-gladiator.gif" alt="image" width="60%">
+</div>
+
+### Summary of Tools and Techniques:
+
+| Tool/Feature              | Purpose                                | Example Use                  |
+|---------------------------|----------------------------------------|------------------------------|
+| Inkscape                  | Create the wall design                 | Stone-like wall pattern      |
+| FreeCAD Extrude Tool      | Turn 2D SVG into a 3D object           | Wall base                    |
+| STL Import                | Add 3D figures to the design           | Horses, angel, tree, etc.    |
+| Boolean Union Tool        | Merge all elements into a single model | Wall and figures             |
+| CuraMaker                 | Prepare the file for 3D printing       | Slice and adjust settings    |
+
+The result is a stunning 3D-printed mural that combines artistic elements from *Gladiator* with the precision of CAD and 3D printing tools. 
+
+<div align="center">
+    <img class="logo" src="../media/freecad/gladiator-result.png" alt="image" width="40%">
+</div>
+
