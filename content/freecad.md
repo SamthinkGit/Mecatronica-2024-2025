@@ -165,3 +165,68 @@ The result is a stunning 3D-printed mural that combines artistic elements from *
     <img class="logo" src="../media/freecad/gladiator-result.png" alt="image" width="40%">
 </div>
 
+---
+# Documenting "Gatortitas" Dimensions with TechDraw     📐
+
+## Overview
+The design of "Gatortitas" was documented using FreeCAD's **TechDraw Workbench**. This allowed for the creation of a detailed technical drawing, including orthographic views, annotations, and dimensions, ensuring the design is ready for manufacturing or reference purposes.
+
+## Step 1: Preparing the 3D Model 🧸
+1. **Finalizing the Model:**
+   - Ensure that the 3D model of "Gatortitas" is complete and properly scaled.
+   - Group related components (e.g., layers, ears, facial features) to keep the workspace organized.
+
+2. **Check for Accuracy:**
+   - Verify the dimensions and proportions of the model before starting the TechDraw process.
+
+## Step 2: Setting Up the TechDraw Workbench ✍️
+1. **Switch to TechDraw:**
+   - Go to the **Workbenches** dropdown menu and select **TechDraw**.
+
+2. **Create a New Page:**
+   - Select the **Insert Default Page** option to create a standard A4 technical drawing sheet.
+   - The default template includes a title block for key information (e.g., author, scale, date).
+
+## Step 3: Adding Views 🖼️
+1. **Insert Orthographic Views:**
+   - Use the **Insert Orthographic Projection Group** tool to add multiple views of the 3D model.
+   - Select key views:
+     - **Front View:** Displays the face and stacked pancake structure.
+     - **Top View:** Shows the circular top layer and ear placement.
+     - **Isometric View:** Provides a 3D perspective for better visualization.
+
+2. **Position and Align Views:**
+   - Arrange the views neatly on the page to avoid overlapping.
+   - Ensure alignment between related views (e.g., top and front).
+
+## Step 4: Annotating Dimensions 📏
+1. **Dimensioning Tools:**
+   - Use the **Add Dimension** tool to annotate critical dimensions:
+     - **Total Height:** Document the overall height of the plushie (26 mm).
+     - **Diameter:** Indicate the diameters of the pancake layers (e.g., 30 mm and 36 mm).
+     - **Ear Dimensions:** Specify the width and height of the ears.
+
+2. **Add Radius and Fillet Dimensions:**
+   - Annotate the rounded edges using the **Add Radius Dimension** tool to highlight the filleted corners (e.g., R1).
+
+3. **Detail Facial Features:**
+   - Include dimensions for the eyes and mouth to ensure accurate placement during production.
+
+## Step 5: Customizing the Title Block 📄
+1. **Edit Title Block:**
+   - Double-click the title block to fill in relevant details:
+     - **Designer:** Enter your name or initials.
+     - **Date:** Specify the creation date.
+     - **Scale:** Indicate the drawing scale (e.g., 1:10).
+     - **Drawing Title:** Add "Gatortitas - Plushie" for clarity.
+
+2. **Weight Field:**
+   - Approximate and document the weight of the design (e.g., 250g).
+
+
+The resulting TechDraw documentation ensures "Gatortitas" is accurately represented with all necessary details, making it suitable for both production and presentation.
+
+
+<div align="center">
+    <img class="logo" src="../media/freecad/gatortitas-measures.png" alt="image" width="40%">
+</div>
