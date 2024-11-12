@@ -51,3 +51,88 @@ The 2D sketch is now a 3D solid representing Eva's head.
 <div align="center">
     <img class="logo" src="../media/project/head.gif" alt="image" width="40%">
 </div>
+
+# Modeling Eva's Body in FreeCAD 🛠️
+
+This section explains the process of designing Eva's body, starting with a spherical base that is deformed into an ovoid shape and using cutting and slicing operations to shape it into the desired form.
+
+---
+
+## Step 1: Creating the Spherical Base 🌐
+1. **Insert a Sphere:**
+   - Open the **Part Workbench**.
+   - Insert a sphere using the **Create Primitive** tool.
+   - Adjust the sphere's radius to roughly match the initial size of Eva's body.
+
+<div align="center">
+    <img class="logo" src="../media/project/body-sphere.png" alt="image" width="30%">
+</div>
+
+> FreeCad File: `Drafts/Sphere`
+
+2. **Deform the Sphere into an Ovoid:**
+   - Use the **Scale Tool** or adjust the properties of the sphere to stretch it along the Z-axis.
+   - This creates the ovoid shape characteristic of Eva's body.
+
+3. **Position the Ovoid Shape:**
+   - Move the deformed sphere along the Z-axis to align it with the overall design.
+   - Ensure it represents the main volume of the body.
+
+<div align="center">
+    <img class="logo" src="../media/project/body-base.png" alt="image" width="30%">
+</div>
+
+> FreeCad File: `Non-Sized-Parts/.../EvaBody/Body/Sphere001`
+
+## Step 2: Shaping the Neck 🌀
+
+1. **Build Other Sphere:**
+   - Generate another sphere with the same radious
+   - Locate the sphere at the neck.
+
+2. **Perform a Boolean Cut:**
+   - Use the **Boolean Difference Tool** to subtract the smaller ovoid from the larger one.
+
+<div align="center">
+    <img class="logo" src="../media/project/body-neck.png" alt="image" width="30%">
+</div>
+
+## Step 3: Shaping the Body ✂️
+1. **Slice the Ovoid:**
+   - Insert a rectangular **Cut Plane** using the **Part Workbench**.
+   - Position the plane to remove the bottom portion of the ovoid, flattening the base.
+   - Use the **Boolean Cut Tool** to perform the slice.
+
+2. **Create the Arm Openings:**
+   - Insert two smaller spheres to represent the arm sockets.
+   - Position these spheres symmetrically on the sides of the hollow body.
+   - Use the **Boolean Difference Tool** to cut the arm sockets out of the body.
+
+<div align="center">
+    <img class="logo" src="../media/project/body-plane-cut.png" alt="image" width="30%">
+</div>
+
+## Step 4: Refining the Model ✨
+1. **Smooth the Edges:**
+   - Apply the **Fillet Tool** to round any sharp edges left from the slicing and cutting operations.
+
+2. **Validate the Design:**
+   - Ensure all operations were performed correctly and the resulting body is symmetrical and smooth.
+
+<div align="center">
+    <img class="logo" src="../media/project/body-shape.gif" alt="image" width="30%">
+</div>
+
+## Construction Tree Breakdown 🌳
+| Step            | Operation         | Description                                |
+|-----------------|-------------------|--------------------------------------------|
+| `Sphere001`     | Create Sphere     | Main body volume                           |
+| `Sphere002`     | Create Smaller Sphere | Inner cavity for hollowing the body       |
+| `ArmCutLeft`    | Add Sphere        | Sphere positioned to cut left arm socket   |
+| `ArmCut`        | Add Sphere        | Sphere positioned to cut right arm socket  |
+| `Slice`         | Add Cut Plane     | Plane used to flatten the bottom           |
+| `CuttedBody`    | Boolean Operations| Final body after all slicing and cutting   |
+
+
+The body design is now ready for further detailing, such as attaching arms or adding internal mechanisms.
+
