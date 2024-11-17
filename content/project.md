@@ -136,3 +136,59 @@ This section explains the process of designing Eva's body, starting with a spher
 
 The body design is now ready for further detailing, such as attaching arms or adding internal mechanisms.
 
+
+# Modeling Eva's Arms and Neck Connection in FreeCAD 🛠️
+
+This section details the creation of Eva’s arms and the neck bridge structure that connects the head to the body.
+
+## Step 1: Designing the Arms 🤖
+
+### Right Arm:
+1. **Create the Arm Shaft:**
+   - Open the **Part Workbench**.
+   - Insert a **Cylinder** to serve as the main shaft of the arm.
+   - Adjust the radius and height to match Eva’s proportions.
+
+2. **Combine the Shapes:**
+   - Use the **Boolean Union Tool** to merge the cylinder and the elliptical end into a single arm structure.
+
+### Left Arm:
+1. **Duplicate the Right Arm:**
+   - Use `Ctrl+C` and `Ctrl+V` to duplicate the right arm.
+   - Mirror the duplicate using the **Transform Tool** to create a symmetrical left arm.
+   - Position it on the opposite side of the body.
+
+<div align="center">
+    <img class="logo" src="../media/project/arms.png" alt="image" width="30%">
+</div>
+
+
+## Step 2: Creating the Neck Bridge 🌉
+
+1. **Design the Bridge Cylinder:**
+   - Insert a **Cylinder** to form the base of the neck bridge.
+   - Adjust its dimensions to connect seamlessly between the head and body.
+
+2. **Add the Circular Block:**
+   - Switch to the **Sketcher Workbench** and draw a circle.
+   - Extrude the circle using the **Part Workbench** to create a block at the top of the bridge cylinder.
+   - Position the block so it aligns with the neck opening created in the body.
+
+<div align="center">
+    <img class="logo" src="../media/project/arms_and_neck.png" alt="image" width="30%">
+</div>
+
+## Step 3: Assembling the Components 🧩
+1. **Attach the Arms:**
+   - Position the arms symmetrically on either side of the body.
+   - Use the **Boolean Union Tool** to connect the arm supports to the body.
+
+2. **Connect the Neck Bridge:**
+   - Align the neck bridge with the hollow neck opening in the body.
+   - Ensure it is centered and securely attached.
+
+<div align="center">
+    <img class="logo" src="../media/project/chest.gif" alt="image" width="30%">
+</div>
+
+The arms and neck bridge provide the structure for Eva’s movement and connection between the head and body.
