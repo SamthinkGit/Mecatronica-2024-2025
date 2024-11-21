@@ -192,3 +192,55 @@ This section details the creation of Eva’s arms and the neck bridge structure 
 </div>
 
 The arms and neck bridge provide the structure for Eva’s movement and connection between the head and body.
+
+# Adding and Designing Eva's Base with FPGA Compatibility in FreeCAD 🛠️
+
+This section details the steps to add a cylindrical base to Eva, hollow out the object for internal components, and design a base with fixations to securely fit an FPGA. A reference model of the FPGA was used to ensure precise compatibility.
+
+## Step 1: Adding a Cylindrical Base
+1. **Create the Base Cylinder:**
+   - Open the **Part Workbench**.
+   - Add a **Cylinder** primitive below Eva's body.
+   - Adjust the radius and height to provide stability and proportionate support for the overall design.
+
+2. **Position the Cylinder:**
+   - Align the cylinder with the body’s central axis.
+   - Ensure it extends slightly outward to serve as a sturdy base.
+
+3. **Smooth the Edges:**
+   - Use the **Fillet Tool** on the cylinder's top edge to create a smooth transition to the body.
+
+<div align="center">
+    <img class="logo" src="../media/project/body_with_base.png" alt="image" width="30%">
+</div>
+
+## Step 2: Hollowing the Object and Opening the Base
+1. **Hollow the Main Body:**
+   - Use the **Part Workbench** to insert a smaller internal cylinder.
+   - Perform a **Boolean Cut** to subtract the smaller cylinder from the larger body, creating a hollow interior.
+
+2. **Open the Base:**
+   - Add another cylinder as a cutting tool to create an opening at the bottom of the base.
+   - Align it with the base’s central axis and adjust its radius slightly smaller than the base’s outer diameter.
+   - Perform a **Boolean Cut** to create a clean, circular opening at the base.
+
+<div align="center">
+    <img class="logo" src="../media/project/hollowed_eva.png" alt="image" width="30%">
+</div>
+
+## Step 3: Designing the Base and FPGA Fixations
+1. **Import the FPGA Reference Model:**
+   - Download an STL or STEP file of the FPGA from an online library.
+   - Import the model into FreeCAD using the **File > Import** option.
+
+2. **Create Fixation Points:**
+   - Use the **Sketcher Workbench** to draw mounting holes and supports for the FPGA.
+   - Extrude the sketches to create solid pillars and slots that align with the FPGA’s mounting points.
+
+3. **Integrate the Fixations with the Base:**
+   - Use the **Part Design Workbench** to position the fixations inside the hollowed-out base.
+   - Ensure proper alignment with the imported FPGA model.
+
+<div align="center">
+    <img class="logo" src="../media/project/fpga-base.png" alt="image" width="30%">
+</div>
