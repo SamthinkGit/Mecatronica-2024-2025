@@ -244,3 +244,80 @@ This section details the steps to add a cylindrical base to Eva, hollow out the 
 <div align="center">
     <img class="logo" src="../media/project/fpga-base.png" alt="image" width="30%">
 </div>
+
+---
+
+# Finalizing Eva's Assembly in FreeCAD 🛠️
+
+## Overview
+This section outlines the final steps in completing Eva's assembly, incorporating internal components such as the FPGA, servo motor, and OLED screen. It also ensures all external parts, like the arms, head, and base, are correctly aligned and connected for a fully functional design.
+
+## Step 1: Adding Internal Components 🧩
+
+### 1.1 Integrating the Servo Motor:
+- **Add the Servo:**
+  - Import the servo model (e.g., `RefinedServo`) into the workspace.
+  - Position the servo within the neck structure to enable rotational movement for the head.
+
+<div align="center">
+    <img class="logo" src="../media/project/servo.png" alt="image" width="30%">
+</div>
+
+### 1.2 Installing the OLED Screen:
+- **Import the OLED Model:**
+  - Insert the OLED screen (`OLED_0.91_128x034`) into the body’s front.
+- **Positioning:**
+  - Align the screen with the opening on the body’s front panel.
+  - Adjust the screen’s depth so it sits flush with the body’s outer surface.
+
+<div align="center">
+    <img class="logo" src="../media/project/oled.png" alt="image" width="30%">
+</div>
+
+## Step 2: Finalizing External Features 🤖
+
+### 2.1 Connecting the Head:
+- **Bridge Attachment:**
+  - Align the neck bridge (`Neck001`) with the hollow opening at the base of the head (`UpperHeadWithHole`).
+  - Use the **Boolean Union Tool** to merge the bridge and head components.
+
+<div align="center">
+    <img class="logo" src="../media/project/bridge.png" alt="image" width="30%">
+</div>
+
+### 2.2 Attaching the Arms:
+- **Use Connectors:**
+  - Attach the arms (`LeftArmWithSupport002` and `RightArmWithSupport002`) to the body using custom connectors (`LeftArmConnector` and `RightArmConnector`).
+- **Alignment:**
+  - Use the **Transform Tool** to ensure the arms are symmetrically aligned on both sides.
+- **Secure Attachment:**
+  - Perform Boolean operations to fix the connectors to the body, ensuring stability.
+
+## Final Tree Structure 🌳
+
+| Component                | Description                              |
+|--------------------------|------------------------------------------|
+| `BaseFPGA`               | FPGA securely placed in the base         |
+| `RefinedServo`           | Servo for head movement                  |
+| `OLED_0.91_128x034`      | Screen integrated into the body          |
+| `LeftArmWithSupport002`  | Left arm with connector                  |
+| `RightArmWithSupport002` | Right arm with connector                 |
+| `Bridge`                 | Connects head to body                    |
+| `UpperHeadWithHole`      | Head with an opening for the neck        |
+| `PulledBaseConnector`    | Smoothly connects the base to the body   |
+
+---
+
+Eva's assembly is now complete, integrating all internal and external components for a fully functional design. The model is ready for export or further mechanical testing.
+
+<div align="center">
+    <img class="logo" src="../media/project/eva-linedraw.png" alt="image" width="30%">
+</div>
+
+<div align="center">
+    <img class="logo" src="../media/project/eva.png" alt="image" width="30%">
+</div>
+
+<div align="center">
+    <img class="logo" src="../media/project/eva-raytracing.png" alt="image" width="30%">
+</div>
