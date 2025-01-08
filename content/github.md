@@ -1,46 +1,54 @@
+# <div align="center">Mechatronics 2024🚀</div>
+
 <div align="center">
-    <img class="logo" src="../media/landing-gif.gif" alt="Logo Robótica Movil" width="50%">
+  <img src="../media/landing-gif.gif" alt="Mechatronics Gif" width="350">
+
+|       |                                                                                                                                                                        |
+| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code  | ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0-blue) ![GitHub](https://img.shields.io/badge/release-done-green) ![GitHub](https://img.shields.io/badge/Deploy-Completed-white) |
+| Wiki  | <div align="center"><a href="https://github.com/SamthinkGit/Mecatronica-2024-2025/wiki"><strong>📖 There is a Wiki available!</strong></a></div>                  |
 </div>
 
-# 🛠️ Introduction
-<hr>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-Welcome to the main repository for our cutting-edge project on the implementation of ECM (Execution-Cognition Machine) as a strategic approach towards the development of Computer Autonomous AI. This initiative represents a significant leap in crafting an intelligent system that not only mimic but also evolve human-like cognitive functionalities autonomously in computer interaction.
+## Welcome to the Mechatronics 2024 Repository
 
-The project revolves around designing, testing, and refining theoretical models that translate complex human problem-solving capabilities into computational strategies executable by AI. We integrate advanced AI frameworks, particularly focusing on AutoGPT as the backbone for adaptive and scalable solutions. Our system architecture is robust, accommodating rapid iterations and rigorous validations through continuous integration and deployment mechanisms.
+This repository contains the assignments completed during the **Mechatronics 2024-2025** course by user [SamthinkGit](https://github.com/SamthinkGit). Before exploring, please keep the following recommendations in mind:
 
-For detailed insights into our methodologies and system functionalities, please refer to the README, the documentation included in this repository or surf through the pages of this Wiki.
+### ⚠️ Important! 
 
-```python
-def get_config():
+This repository is fully designed to be **deployed as a web page**. The reason for this is detailed some sections below.
 
-# --- Loading Config ---
-config_path = os.path.join(get_mlbasics_path(), "config", "config.yaml")
-with open(config_path, 'r') as stream:
-    config_yaml = yaml.safe_load(stream)
+- You can access the full documentation now deployed online at this link: [Web Page Link](https://samthinkgit.github.io/Mecatronica-2024-2025/).
+  - This is the **recommended** way to view the content.
 
-# --- Loading Logging ---
-logging.basicConfig(
-    format="%(levelname)s - %(name)s -  %(message)s",
-    level=config_yaml['general']['logging_level']
-)
-```
+- If you prefer to view it locally, follow these steps:
+  1. Run the command `python -m http.server` from the project’s root directory.
+  2. Open your browser and navigate to `127.0.0.1:8000`.
 
-# 🛠️ Coding more...
-<hr>
+### Content Structure
 
-Welcome to the main repository for our cutting-edge project on the implementation of ECM (Execution-Cognition Machine) as a strategic approach towards the development of Computer Autonomous AI. This initiative represents a significant leap in crafting an intelligent system that not only mimic but also evolve human-like cognitive functionalities autonomously in computer interaction.
+1. All documentation is in Markdown (.md) format and located in the `/content` folder.
+   - While you can view the files directly, we recommend using the deployed page or the local setup for a better experience.
+2. Additionally, this repository includes a [Wiki](https://github.com/SamthinkGit/Mecatronica-2024-2025/wiki) with the same information as the `/content` folder.
 
-The project revolves around designing, testing, and refining theoretical models that translate complex human problem-solving capabilities into computational strategies executable by AI. We integrate advanced AI frameworks, particularly focusing on AutoGPT as the backbone for adaptive and scalable solutions. Our system architecture is robust, accommodating rapid iterations and rigorous validations through continuous integration and deployment mechanisms.
+### About the commits
 
-For detailed insights into our methodologies and system functionalities, please refer to the README, the documentation included in this repository or surf through the pages of this Wiki.
+- All work has been managed from the root directory.
+- To check the progress, use:
+  ```
+  git log --oneline
+  ```
 
-```html
-<head>
-    <title>Mobile Robotics Blog</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0º" name="viewport">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
-    <link rel="stylesheet" href="/styles/landing-page.css">
-</head>
-```
+## How this page works
+
+The main goal of this project is to practice Markdown format. For this reason, we decidde to empower this practice and take the next step. In this repository **the entire page is built from `.md` files**!.
+
+- A JavaScript script (located in `/scripts/markdown.js`) processes the documents in the `/content` folder (where the .md files are located) and generates automatically the deployed pages.
+- We use the [Marked.js](https://github.com/markedjs/marked) library to convert Markdown files to HTML.
+
+Feel free to explore and reuse the script, but we kindly ask that you credit the library used.
+
+### Explore and enjoy!
+
+Finally, we invite you to explore this repository and use it however you like. We hope you find the shared information helpful!
