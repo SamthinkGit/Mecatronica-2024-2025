@@ -258,3 +258,26 @@ footer span {
 footer a:hover {
     --link-color: white;
 }
+
+#md-container strong {
+    color: rgb(204, 167, 113);
+
+}
+
+#md-container h1 {
+    font-size: 30px;
+    text-shadow: 0 0 10px black;
+}
+
+main code {
+    color: rgb(87, 238, 120);
+    background-color: var(--code-light) !important;
+    border: 3px solid var(--code-dark);
+    font-family: Consolas, monospace !important;
+    font-size: 15px;
+}
+
+main code * {
+    font-family: Consolas, monospace;
+    font-size: 15px;
+}
