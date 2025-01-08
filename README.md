@@ -6,7 +6,7 @@
 |       |                                                                                                                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Code  | ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0-blue) ![GitHub](https://img.shields.io/badge/release-done-green) ![GitHub](https://img.shields.io/badge/Deploy-Completed-white) |
-| Wiki  | <div align="center"><a href="https://github.com/SamthinkGit/mechatronics-blog/wiki"><strong>📖 There is a Wiki available!</strong></a></div>                  |
+| Wiki  | <div align="center"><a href="https://github.com/SamthinkGit/Mecatronica-2024-2025/wiki"><strong>📖 There is a Wiki available!</strong></a></div>                  |
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -19,7 +19,7 @@ This repository contains the assignments completed during the **Mechatronics 202
 
 This repository is fully designed to be **deployed as a web page**. The reason for this is detailed some sections below.
 
-- You can access the full documentation now deployed online at this link: [Web Page Link](#).
+- You can access the full documentation now deployed online at this link: [Web Page Link](https://samthinkgit.github.io/Mecatronica-2024-2025/).
   - This is the **recommended** way to view the content.
 
 - If you prefer to view it locally, follow these steps:
@@ -30,7 +30,7 @@ This repository is fully designed to be **deployed as a web page**. The reason f
 
 1. All documentation is in Markdown (.md) format and located in the `/content` folder.
    - While you can view the files directly, we recommend using the deployed page or the local setup for a better experience.
-2. Additionally, this repository includes a [Wiki](#) with the same information as the `/content` folder.
+2. Additionally, this repository includes a [Wiki](https://github.com/SamthinkGit/Mecatronica-2024-2025/wiki) with the same information as the `/content` folder.
 
 ### About the commits
 
