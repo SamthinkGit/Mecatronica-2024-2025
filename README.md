@@ -6,7 +6,7 @@
 |       |                                                                                                                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Code  | ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0-blue) ![GitHub](https://img.shields.io/badge/release-done-green) ![GitHub](https://img.shields.io/badge/Deploy-Completed-white) |
-| Wiki  | <div align="center"><a href="https://github.com/SamthinkGit/Mecatronica-2024-2025/wiki"><strong>📖 There is a Wiki available!</strong></a></div>                  |
+| Deploy  | <div align="center"><a href="https://samthinkgit.github.io/Mecatronica-2024-2025/pages/navigation.html"><strong>📖 There is a Deployed Documentation!</strong></a></div>                  |
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
